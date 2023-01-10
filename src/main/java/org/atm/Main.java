@@ -18,19 +18,19 @@ public class Main {
         if((atmNumber==enteredAtmNumber)&&(atmPin==enteredPin)){
             while(true){
                 System.out.println("1.View Available Balance\n2.Withdraw Amount\n3.Deposit Amount\n4.View Mini statement\n5.Exit");
-                System.out.println("Enter Choice : ");
+                System.out.format("Enter Choice: ");
                 int choice=Integer.parseInt(scanner.nextLine());
                 if(choice==1){
                    option.viewBalance();
                 }
                 else if(choice==2){
-                    System.out.println("Enter amount to withdraw ");
+                    System.out.format("Enter amount to withdraw ");
                     double withdrawAmount = Double.parseDouble(scanner.nextLine());
                     option.withdrawAmount(withdrawAmount);
 
                 }
                 else if(choice==3){
-                    System.out.println("Enter Amount to Deposit :");
+                    System.out.format("Enter Amount to Deposit: ");
                     double depositAmount= Double.parseDouble(scanner.nextLine());
                     option.depositAmount(depositAmount);
 
