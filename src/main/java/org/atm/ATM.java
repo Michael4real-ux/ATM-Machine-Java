@@ -36,6 +36,4 @@ public class ATM {
         this.withdrawAmount = withdrawAmount;
     }
 
-
-
 }
