@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        ATMOperationInterface option = new ATMOperationImpl();
     int atmNumber = 12345678;
     int atmPin = 1234;
 
@@ -18,22 +19,24 @@ public class Main {
             while(true){
                 System.out.println("1.View Available Balance\n2.Withdraw Amount\n3.Deposit Amount\n4.View Mini statement\n5.Exit");
                 System.out.println("Enter Choice : ");
-                int choice=scanner.nextInt();
+                int choice=Integer.parseInt(scanner.nextLine());
                 if(choice==1){
-                    System.out.println("View Balance");
+                   option.viewBalance();
                 }
                 else if(choice==2){
                     System.out.println("Enter amount to withdraw ");
-                    scanner.nextDouble();
+                    double withdrawAmount = Double.parseDouble(scanner.nextLine());
+                    option.withdrawAmount(withdrawAmount);
 
                 }
                 else if(choice==3){
                     System.out.println("Enter Amount to Deposit :");
-                    scanner.nextDouble();//5000
+                    double depositAmount= Double.parseDouble(scanner.nextLine());
+                    option.depositAmount(depositAmount);
 
                 }
                 else if(choice==4){
-                    System.out.println("View Mini statement");
+                  option.viewMiniStatement();
 
                 }
                 else if(choice==5){

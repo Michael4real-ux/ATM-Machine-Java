@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="686b887d-2c38-4da1-b96e-7afc7d0cd812" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/atm/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/atm/ATM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/atm/ATMOperationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/atm/ATMOperationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/atm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/atm/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673338347767</updated>
-      <workItem from="1673338349577" duration="2752000" />
+      <workItem from="1673338349577" duration="4432000" />
     </task>
     <servers />
   </component>
